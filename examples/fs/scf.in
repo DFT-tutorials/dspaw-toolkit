@@ -1,0 +1,19 @@
+# task type
+task = scf
+#system related
+sys.structure = structure.as
+sys.symmetry  = false
+sys.functional = PBE
+sys.pseudoType = 0
+sys.pseudoPath = /data/home/nm1002/nm1002/yd/pot/
+sys.spin = collinear
+#scf related
+scf.max = 400
+cal.cutoff = 450
+cal.methods  = 3
+cal.smearing = 1
+cal.ksamping = G
+cal.sigma    = 0.05
+cal.kpoints = [3, 3, 3]
+
+io.wave = false

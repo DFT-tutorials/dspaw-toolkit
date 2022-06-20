@@ -1,0 +1,4 @@
+  File "gen_k.py", line 3
+    imoprt shutil
+                ^
+SyntaxError: invalid syntax

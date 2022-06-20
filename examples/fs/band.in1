@@ -1,0 +1,25 @@
+# task type
+task = band
+#system related
+sys.structure = structure.as
+sys.symmetry  = false
+sys.functional = PBE
+sys.pseudoType = 0
+sys.pseudoPath = /data/home/nm1002/nm1002/yd/pot/
+sys.spin = collinear
+#scf related
+
+cal.cutoff = 450
+cal.methods  = 3
+cal.smearing = 1
+cal.ksamping = G
+cal.sigma    = 0.05
+cal.kpoints = [3, 3, 3]
+
+cal.iniCharge = ./rho.bin
+
+
+band.kpointsLabel = [G, M, K, G, A, L, H, A]
+band.kpointsCoord = [0.0000, 0.0000, 0.0000, 0.5000, 0.0000, 0.0000, 0.3333, 0.3333, 0.0000, 0.0, 0.0, 0.0, 0.0000, 0.0000, 0.5,0.5000, 0.0000, 0.5, 0.3333, 0.3333, 0.5, 0.0000, 0.0000, 0.5]
+band.kpointsNumber = [50, 50, 50, 50, 50, 50, 50]
+band.project = true
