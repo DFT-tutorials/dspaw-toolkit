@@ -1,3 +1,3 @@
 FROM continuumio/anaconda
 
-RUN pip3 install requirements.txt
+RUN conda install -c conda-forge -y requirements.txt
